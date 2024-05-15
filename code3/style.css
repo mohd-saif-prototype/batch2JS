@@ -1,0 +1,19 @@
+*{
+  /* border: 1px solid; */
+}
+
+p::before{
+  content: "";
+  width: 10rem;
+  height: 1rem;
+  text-decoration: underline;
+  background-color: blanchedalmond;
+  position: absolute;
+  z-index: -1;
+}
+
+p::after{
+  content: "This is after the para";
+  text-decoration: underline;
+  background-color: aqua;
+}
